@@ -27,9 +27,21 @@ Python is the intepreted language
    and a new line to tell the machine that the statment is over move to next line
 -> Other languages follow different rules , ex: java follows ; for the end of the statement and {} for the 
    block of code 
+-> in a block every line should follow the same indentation (same space from the start of the block)
 """
 
 a = 10
 
 if (a > 5):
-    print("a is greater")
+    print("a is greater") #here the space is the indentation which tells the machine that this is the block of code for IF statement
+else:
+    print("a is smaller")
+
+
+# What is statement?
+
+"""
+-> Statement is a instruction that are provided to the machine for performing task through programming language
+-> each and every linbe is the statment which tells the machoine to perform specific task
+-> exmaple print("Hello")  is the statement
+"""
